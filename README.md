@@ -1,2 +1,2 @@
-# orderbottest
-for QA
+# orderbot
+chat bot for orders
