@@ -66,7 +66,7 @@ app.post('/webhook', function (req, res) {
               "Password":"",
               "LineId":"",
               "ActionId":2,
-              "ReturnType":"str",
+              "ReturnType":"json",
               "IntentKey":INTENT_NAME,
               "Source":"webchat",
               "Data":SESSIONID_FOR_WEBCHAT}
@@ -107,7 +107,7 @@ app.post('/webhook', function (req, res) {
               "Password":PASSWORD,
               "LineId":lineUserId,
               "ActionId":2,
-              "ReturnType":"str",
+              "ReturnType":"json",
               "IntentKey":INTENT_NAME,
               "Source":"line",
               "Data":""}
