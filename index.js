@@ -15,8 +15,8 @@ var PASSWORD = "";
 var webhookReply = "";
 var SESSIONID_FOR_WEBCHAT = "";
 
-//const PortalService_URL = "http://66.155.19.127/PortalService/api/operations/"; //Kayako Server
-const PortalService_URL = "http://66.228.117.22/BotWebhookService/api/operations"; //QA Server
+const PortalService_URL = "http://66.155.19.127/PortalService/api/operations/"; //Kayako Server
+//const PortalService_URL = "http://66.228.117.22/BotWebhookService/api/operations"; //QA Server
 
 app.get('/', function (req, res) {
   res.send('Use the /webhook endpoint.')
