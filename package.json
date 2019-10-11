@@ -20,7 +20,8 @@
     "body-parser": "^1.17.2",
     "express": "^4.15.3",
     "request": "^2.87.0",
-    "sync-request": "6.0.0",
+    "sync-request": "6.0.0",,
+    "fs": "0.0.1",
     "@line/bot-sdk": "6.0.2"
   },
   "engines": {
